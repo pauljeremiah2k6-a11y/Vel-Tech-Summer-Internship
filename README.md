@@ -28,7 +28,7 @@ Outcome
 
 WEEK 2:
 
-Project: Network Packet Sniffer Using Python and Scapy
+Project 1: Network Packet Sniffer Using Python and Scapy
 
 Description:
 This project captures and analyzes network packets using Python and the Scapy library.
@@ -44,3 +44,25 @@ Features:
 
 Outcome:
 Successfully captured and monitored network traffic using Scapy.
+
+Project 2: Python Port Scanner
+
+Project Description
+- This project is a simple port scanner built using Python.  
+- It checks which ports are open or closed on a target IP address or website.
+
+ Features
+- Scan ports from 1 to 100 (or more)
+- Detect open and closed ports
+- Works on IP addresses and domain names
+- Simple command-line interface
+
+How It Works
+- The tool uses Python's `socket` library to try connecting to ports.  
+- If connection succeeds → port is OPEN  
+- If it fails → port is CLOSED
+
+Tools Used
+- Python 3
+- Socket module (built-in)
+
