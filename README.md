@@ -66,3 +66,28 @@ Tools Used
 - Python 3
 - Socket module (built-in)
 
+Week 3:
+
+Project 3: Wireshark Traffic Analysis
+
+Description
+This project demonstrates network traffic analysis using Wireshark. DNS packets were captured and analyzed to understand how domain names are resolved into IP addresses.
+
+Tools Used
+- Wireshark
+- Windows 11
+- Wi-Fi Network
+
+Features
+- Packet Capture
+- DNS Analysis
+- Protocol Filtering
+- Network Traffic Monitoring
+
+Observations
+- DNS queries and responses were captured.
+- Domains such as c.pki.goog and ctldl.windowsupdate.com were observed.
+- Network packets were analyzed to understand communication between the local machine and internet services.
+
+Outcome
+Successfully captured and analyzed network traffic using Wireshark and gained practical knowledge of DNS and packet analysis.
