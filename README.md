@@ -1,7 +1,7 @@
 # Vel-Tech-Summer-Internship
 WEEK 1:
 
-Project: Network Packet Sniffer using Python for basic network traffic monitoring and analysis.
+Project 1: Network Packet Sniffer using Python for basic network traffic monitoring and analysis.
 
 Description
 
@@ -28,7 +28,7 @@ Outcome
 
 WEEK 2:
 
-Project 1: Network Packet Sniffer Using Python and Scapy
+Project 2: Network Packet Sniffer Using Python and Scapy
 
 Description:
 This project captures and analyzes network packets using Python and the Scapy library.
@@ -45,7 +45,7 @@ Features:
 Outcome:
 Successfully captured and monitored network traffic using Scapy.
 
-Project 2: Python Port Scanner
+Project 3: Python Port Scanner
 
 Project Description
 - This project is a simple port scanner built using Python.  
@@ -68,7 +68,7 @@ Tools Used
 
 Week 3:
 
-Project 3: Wireshark Traffic Analysis
+Project 4: Wireshark Traffic Analysis
 
 Description
 This project demonstrates network traffic analysis using Wireshark. DNS packets were captured and analyzed to understand how domain names are resolved into IP addresses.
