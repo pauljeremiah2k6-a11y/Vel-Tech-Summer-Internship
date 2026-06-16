@@ -124,21 +124,21 @@ Network-Traffic-Monitor/
 └── README.md
 ```
 
-## ▶️ How to Run
+How to Run
 
-### 1. Install the required library
+1. Install the required library
 
 ```bash
 pip install psutil
 ```
 
-### 2. Run the program
+2. Run the program
 
 ```bash
 python network_monitor.py
 ```
 
-## 📋 Sample Output
+Sample Output
 
 ```
 Local Address : 192.168.100.77:64860
