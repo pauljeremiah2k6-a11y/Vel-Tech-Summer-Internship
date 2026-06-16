@@ -91,3 +91,71 @@ Observations
 
 Outcome
 Successfully captured and analyzed network traffic using Wireshark and gained practical knowledge of DNS and packet analysis.
+
+Project 5: Network Traffic Monitor Using Python
+
+Project Description
+This project is a simple Network Traffic Monitor developed using Python. It displays the active network connections on the computer, including local addresses, remote addresses, and connection status. The project helps users understand how their system communicates over a network.
+
+Objective
+To monitor and display the current network connections of a system and understand basic network traffic monitoring concepts.
+
+Technologies Used
+- Python 3
+- psutil library
+
+Features
+- Displays active network connections.
+- Shows local IP addresses and port numbers.
+- Shows remote IP addresses and port numbers.
+- Displays connection status such as:
+  - ESTABLISHED
+  - LISTEN
+  - TIME_WAIT
+  - NONE
+- Easy to run and understand.
+
+Project Structure
+
+```
+Network-Traffic-Monitor/
+│
+├── network_monitor.py
+└── README.md
+```
+
+## ▶️ How to Run
+
+### 1. Install the required library
+
+```bash
+pip install psutil
+```
+
+### 2. Run the program
+
+```bash
+python network_monitor.py
+```
+
+## 📋 Sample Output
+
+```
+Local Address : 192.168.100.77:64860
+Remote Address: 14.167.152.255:39165
+Status        : ESTABLISHED
+----------------------------------------
+Local Address : :::135
+Remote Address: N/A
+Status        : LISTEN
+----------------------------------------
+```
+
+Explanation of Status
+
+| Status | Meaning |
+|----------|-----------|
+| ESTABLISHED | Connection is currently active |
+| LISTEN | Waiting for incoming connections |
+| TIME_WAIT | Connection has recently closed |
+| NONE | No specific TCP state (commonly UDP traffic) |
